@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444">
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="start"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/description"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#88000000"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/overlay_uri"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:inputType="textUri"
+            android:padding="15dip"
+            android:textColor="#ffffff" />
+
+        <RadioGroup
+            android:id="@+id/radio_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dip">
+
+            <RadioButton
+                android:id="@+id/radio_html"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/overlay_html"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/radio_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/overlay_video"
+                android:textColor="#ffffff" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

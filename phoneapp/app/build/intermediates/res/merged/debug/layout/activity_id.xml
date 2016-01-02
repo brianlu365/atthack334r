@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdActivity">
+
+    <idsdk.api.ar.ARView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/torch"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/flash" />
+
+    <Button
+        android:id="@+id/facing"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/flip_camera" />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/camera_button" />
+
+    <Button
+        android:id="@+id/example"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/torch"
+        android:layout_below="@+id/torch"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/help" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/torch"
+        android:layout_below="@+id/example"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/feedback_button" />
+
+</RelativeLayout>

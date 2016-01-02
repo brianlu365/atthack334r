@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="10dip"
+        android:textColor="#555555" />
+
+    <ListView
+        android:id="@+id/markers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_buttons"
+        android:layout_below="@+id/hint"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdgeLength="48dp"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip"
+        android:requiresFadingEdge="vertical"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_marker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:background="@color/highlight_rec"
+            android:padding="7dip"
+            android:text="@string/add_marker"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/start_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:background="@color/highlight_rec"
+            android:padding="7dip"
+            android:text="@string/start_recognition"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

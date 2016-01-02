@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">iD</string>
+    <string name="entity_name">Entity name</string>
+    <string name="fetch_creative">Fetch creative</string>
+    <string name="entity_id">Entity ID</string>
+    <string name="no_match">No match found.</string>
+    <string name="creative_not_available">Creative is not available.</string>
+    <string name="result">Result</string>
+    <string name="example">Example</string>
+    <string name="visit_website_example">Visit the following website to view sample images and bar codes:</string>
+    <string name="add_marker">Add marker</string>
+    <string name="add_overlay">Add overlay</string>
+    <string name="start_recognition">Start recognition</string>
+    <string name="image_recognizer">Image recognition</string>
+    <string name="barcode_recognizer">Barcode recognition</string>
+    <string name="local_image_recognizer">Local image recognition</string>
+    <string name="capture">Capture marker</string>
+    <string name="retrieving_creative">Retrieving creative..</string>
+    <string name="ar_active">AR mode is active..</string>
+    <string name="querying">Querying..</string>
+    <string name="scanning">Scanning..</string>
+    <string name="add_marker_hint">Click "Add Marker" button below to capture an image to be used for recognition. Once you have added at least one markers, you will be able to start recognition.</string>
+    <string name="done">DONE</string>
+    <string name="overlay_html">HTML overlay</string>
+    <string name="overlay_html_link">http://www.nantmobile.com</string>
+    <string name="overlay_video">Video overlay</string>
+    <string name="description">No description</string>
+</resources>
