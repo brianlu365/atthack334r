@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="idsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/idsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

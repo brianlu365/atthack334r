@@ -22,6 +22,12 @@ android {
         }
     }
 
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
     defaultConfig {
         applicationId "com.nantmobile.id"
         minSdkVersion 15
@@ -39,4 +45,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.att.m2x.android:m2x-android:5.0.0@aar'
+    compile 'com.mcxiaoke.volley:library:1.0.9'
+    compile 'com.google.code.gson:gson:2.3.1'
 }

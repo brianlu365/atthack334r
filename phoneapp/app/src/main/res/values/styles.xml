@@ -1,4 +1,4 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar"/>
 </resources>

@@ -2,5 +2,9 @@
     {
         "merged": "/home/gdev/Downloads/iDSDK_1_1_12292015/src/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/home/gdev/Downloads/iDSDK_1_1_12292015/src/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/gdev/Github/atthack334r/phoneapp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]

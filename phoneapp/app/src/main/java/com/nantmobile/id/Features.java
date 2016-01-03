@@ -17,6 +17,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,6 +31,9 @@ public final class Features extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Log.i("test", "features");
+        //M2XAPI.initialize(getApplicationContext(), "7620741335388aa83bcdacab007e2391");
 
         View view = inflater.inflate(R.layout.activity_feature, container, false);
         ListView featureListView = (ListView) view.findViewById(R.id.feature);

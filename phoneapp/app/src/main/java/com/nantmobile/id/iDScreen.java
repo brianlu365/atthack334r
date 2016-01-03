@@ -84,8 +84,7 @@ public class iDScreen extends Fragment {
     private final Recognizer.OnRecognitionListener onRecognitionListener = new Recognizer.OnRecognitionListener() {
         @Override
         public void onRecognition(Recognizer recognizer, RecognitionResponse response) {
-            Log.i("test", "now");
-            Log.i("Sample", response.toJson().toString());
+            Log.i("Response", response.toJson().toString());
             showProgress(false);
             setStatus();
 
