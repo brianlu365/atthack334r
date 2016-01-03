@@ -26,6 +26,8 @@ android {
         flatDir {
             dirs 'libs'
         }
+        mavenCentral()
+        mavenLocal()
     }
 
     defaultConfig {
@@ -48,4 +50,6 @@ dependencies {
     compile 'com.att.m2x.android:m2x-android:5.0.0@aar'
     compile 'com.mcxiaoke.volley:library:1.0.9'
     compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.github.markushi:circlebutton:1.1'
 }

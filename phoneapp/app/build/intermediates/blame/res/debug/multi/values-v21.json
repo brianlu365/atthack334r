@@ -1707,9 +1707,28 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 3,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 68,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endLine": 4,
                     "endColumn": 12,
-                    "endOffset": 129
+                    "endOffset": 198
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/res/values-v21/values.xml",
@@ -1725,11 +1744,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 134,
+                    "startOffset": 203,
                     "endColumn": 90,
-                    "endOffset": 220
+                    "endOffset": 289
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1744,11 +1763,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 225,
+                    "startOffset": 294,
                     "endColumn": 102,
-                    "endOffset": 323
+                    "endOffset": 392
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1763,11 +1782,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 328,
+                    "startOffset": 397,
                     "endColumn": 102,
-                    "endOffset": 426
+                    "endOffset": 495
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1782,11 +1801,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 431,
+                    "startOffset": 500,
                     "endColumn": 104,
-                    "endOffset": 531
+                    "endOffset": 600
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1801,11 +1820,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 536,
+                    "startOffset": 605,
                     "endColumn": 106,
-                    "endOffset": 638
+                    "endOffset": 707
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1820,11 +1839,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 643,
+                    "startOffset": 712,
                     "endColumn": 108,
-                    "endOffset": 747
+                    "endOffset": 816
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1839,11 +1858,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 752,
+                    "startOffset": 821,
                     "endColumn": 108,
-                    "endOffset": 856
+                    "endOffset": 925
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1858,11 +1877,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 861,
+                    "startOffset": 930,
                     "endColumn": 108,
-                    "endOffset": 965
+                    "endOffset": 1034
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1877,11 +1896,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 970,
+                    "startOffset": 1039,
                     "endColumn": 108,
-                    "endOffset": 1074
+                    "endOffset": 1143
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1896,11 +1915,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1079,
+                    "startOffset": 1148,
                     "endColumn": 108,
-                    "endOffset": 1183
+                    "endOffset": 1252
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1915,11 +1934,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1188,
+                    "startOffset": 1257,
                     "endColumn": 106,
-                    "endOffset": 1290
+                    "endOffset": 1359
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1934,11 +1953,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1295,
+                    "startOffset": 1364,
                     "endColumn": 102,
-                    "endOffset": 1393
+                    "endOffset": 1462
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1953,11 +1972,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1398,
+                    "startOffset": 1467,
                     "endColumn": 118,
-                    "endOffset": 1512
+                    "endOffset": 1581
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1972,12 +1991,12 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1517,
-                    "endLine": 18,
+                    "startOffset": 1586,
+                    "endLine": 19,
                     "endColumn": 12,
-                    "endOffset": 1667
+                    "endOffset": 1736
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -1993,12 +2012,12 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1672,
-                    "endLine": 20,
+                    "startOffset": 1741,
+                    "endLine": 21,
                     "endColumn": 12,
-                    "endOffset": 1822
+                    "endOffset": 1891
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2014,11 +2033,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1827,
+                    "startOffset": 1896,
                     "endColumn": 104,
-                    "endOffset": 1927
+                    "endOffset": 1996
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2033,11 +2052,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1932,
+                    "startOffset": 2001,
                     "endColumn": 120,
-                    "endOffset": 2048
+                    "endOffset": 2117
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2052,11 +2071,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2053,
+                    "startOffset": 2122,
                     "endColumn": 100,
-                    "endOffset": 2149
+                    "endOffset": 2218
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2071,12 +2090,12 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2154,
-                    "endLine": 25,
+                    "startOffset": 2223,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 2296
+                    "endOffset": 2365
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2092,12 +2111,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2301,
-                    "endLine": 27,
+                    "startOffset": 2370,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 2437
+                    "endOffset": 2506
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2113,11 +2132,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2442,
+                    "startOffset": 2511,
                     "endColumn": 102,
-                    "endOffset": 2540
+                    "endOffset": 2609
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2132,11 +2151,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2545,
+                    "startOffset": 2614,
                     "endColumn": 118,
-                    "endOffset": 2659
+                    "endOffset": 2728
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2151,11 +2170,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2664,
+                    "startOffset": 2733,
                     "endColumn": 106,
-                    "endOffset": 2766
+                    "endOffset": 2835
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2170,11 +2189,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2771,
+                    "startOffset": 2840,
                     "endColumn": 102,
-                    "endOffset": 2869
+                    "endOffset": 2938
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2189,12 +2208,12 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 2874,
-                    "endLine": 33,
+                    "startOffset": 2943,
+                    "endLine": 34,
                     "endColumn": 12,
-                    "endOffset": 3016
+                    "endOffset": 3085
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2210,12 +2229,12 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3021,
-                    "endLine": 35,
+                    "startOffset": 3090,
+                    "endLine": 36,
                     "endColumn": 12,
-                    "endOffset": 3171
+                    "endOffset": 3240
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2231,12 +2250,12 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3176,
-                    "endLine": 37,
+                    "startOffset": 3245,
+                    "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 3342
+                    "endOffset": 3411
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2252,12 +2271,12 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3347,
-                    "endLine": 39,
+                    "startOffset": 3416,
+                    "endLine": 40,
                     "endColumn": 12,
-                    "endOffset": 3491
+                    "endOffset": 3560
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2273,12 +2292,12 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 3496,
-                    "endLine": 41,
+                    "startOffset": 3565,
+                    "endLine": 42,
                     "endColumn": 12,
-                    "endOffset": 3656
+                    "endOffset": 3725
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2294,12 +2313,12 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3661,
-                    "endLine": 43,
+                    "startOffset": 3730,
+                    "endLine": 44,
                     "endColumn": 12,
-                    "endOffset": 3813
+                    "endOffset": 3882
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2315,12 +2334,12 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3818,
-                    "endLine": 45,
+                    "startOffset": 3887,
+                    "endLine": 46,
                     "endColumn": 12,
-                    "endOffset": 3964
+                    "endOffset": 4033
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2336,11 +2355,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3969,
+                    "startOffset": 4038,
                     "endColumn": 118,
-                    "endOffset": 4083
+                    "endOffset": 4152
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2355,12 +2374,12 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4088,
-                    "endLine": 48,
+                    "startOffset": 4157,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 4232
+                    "endOffset": 4301
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2376,12 +2395,12 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4237,
-                    "endLine": 50,
+                    "startOffset": 4306,
+                    "endLine": 51,
                     "endColumn": 12,
-                    "endOffset": 4381
+                    "endOffset": 4450
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2397,11 +2416,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 4386,
+                    "startOffset": 4455,
                     "endColumn": 111,
-                    "endOffset": 4493
+                    "endOffset": 4562
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2416,11 +2435,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 4498,
+                    "startOffset": 4567,
                     "endColumn": 146,
-                    "endOffset": 4640
+                    "endOffset": 4709
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2435,12 +2454,12 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 4645,
-                    "endLine": 54,
+                    "startOffset": 4714,
+                    "endLine": 55,
                     "endColumn": 12,
-                    "endOffset": 4793
+                    "endOffset": 4862
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2456,12 +2475,12 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 4798,
-                    "endLine": 56,
+                    "startOffset": 4867,
+                    "endLine": 57,
                     "endColumn": 12,
-                    "endOffset": 4940
+                    "endOffset": 5009
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2477,11 +2496,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4945,
+                    "startOffset": 5014,
                     "endColumn": 74,
-                    "endOffset": 5015
+                    "endOffset": 5084
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2496,11 +2515,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 5020,
+                    "startOffset": 5089,
                     "endColumn": 88,
-                    "endOffset": 5104
+                    "endOffset": 5173
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2515,11 +2534,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 5109,
+                    "startOffset": 5178,
                     "endColumn": 86,
-                    "endOffset": 5191
+                    "endOffset": 5260
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2534,11 +2553,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 5196,
+                    "startOffset": 5265,
                     "endColumn": 100,
-                    "endOffset": 5292
+                    "endOffset": 5361
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2553,12 +2572,12 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 5297,
-                    "endLine": 104,
+                    "startOffset": 5366,
+                    "endLine": 105,
                     "endColumn": 12,
-                    "endOffset": 8360
+                    "endOffset": 8429
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2574,12 +2593,12 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 8365,
-                    "endLine": 107,
+                    "startOffset": 8434,
+                    "endLine": 108,
                     "endColumn": 12,
-                    "endOffset": 8546
+                    "endOffset": 8615
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2595,12 +2614,12 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 8551,
-                    "endLine": 151,
+                    "startOffset": 8620,
+                    "endLine": 152,
                     "endColumn": 12,
-                    "endOffset": 11626
+                    "endOffset": 11695
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2616,12 +2635,12 @@
             },
             {
                 "to": {
-                    "startLine": 152,
+                    "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 11631,
-                    "endLine": 154,
+                    "startOffset": 11700,
+                    "endLine": 155,
                     "endColumn": 12,
-                    "endOffset": 11824
+                    "endOffset": 11893
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2637,12 +2656,12 @@
             },
             {
                 "to": {
-                    "startLine": 155,
+                    "startLine": 156,
                     "startColumn": 4,
-                    "startOffset": 11829,
-                    "endLine": 156,
+                    "startOffset": 11898,
+                    "endLine": 157,
                     "endColumn": 12,
-                    "endOffset": 11947
+                    "endOffset": 12016
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2658,12 +2677,12 @@
             },
             {
                 "to": {
-                    "startLine": 157,
+                    "startLine": 158,
                     "startColumn": 4,
-                    "startOffset": 11952,
-                    "endLine": 158,
+                    "startOffset": 12021,
+                    "endLine": 159,
                     "endColumn": 12,
-                    "endOffset": 12070
+                    "endOffset": 12139
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2679,12 +2698,12 @@
             },
             {
                 "to": {
-                    "startLine": 159,
+                    "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 12075,
-                    "endLine": 160,
+                    "startOffset": 12144,
+                    "endLine": 161,
                     "endColumn": 12,
-                    "endOffset": 12183
+                    "endOffset": 12252
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2700,12 +2719,12 @@
             },
             {
                 "to": {
-                    "startLine": 161,
+                    "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 12188,
-                    "endLine": 163,
+                    "startOffset": 12257,
+                    "endLine": 164,
                     "endColumn": 12,
-                    "endOffset": 12366
+                    "endOffset": 12435
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2721,12 +2740,12 @@
             },
             {
                 "to": {
-                    "startLine": 164,
+                    "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 12371,
-                    "endLine": 165,
+                    "startOffset": 12440,
+                    "endLine": 166,
                     "endColumn": 12,
-                    "endOffset": 12497
+                    "endOffset": 12566
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2742,12 +2761,12 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 12502,
-                    "endLine": 168,
+                    "startOffset": 12571,
+                    "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 12698
+                    "endOffset": 12767
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2763,11 +2782,11 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12703,
+                    "startOffset": 12772,
                     "endColumn": 88,
-                    "endOffset": 12787
+                    "endOffset": 12856
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2782,11 +2801,11 @@
             },
             {
                 "to": {
-                    "startLine": 170,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 12792,
+                    "startOffset": 12861,
                     "endColumn": 110,
-                    "endOffset": 12898
+                    "endOffset": 12967
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2801,11 +2820,11 @@
             },
             {
                 "to": {
-                    "startLine": 171,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12903,
+                    "startOffset": 12972,
                     "endColumn": 126,
-                    "endOffset": 13025
+                    "endOffset": 13094
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2820,11 +2839,11 @@
             },
             {
                 "to": {
-                    "startLine": 172,
+                    "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 13030,
+                    "startOffset": 13099,
                     "endColumn": 100,
-                    "endOffset": 13126
+                    "endOffset": 13195
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2839,11 +2858,11 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 13131,
+                    "startOffset": 13200,
                     "endColumn": 94,
-                    "endOffset": 13221
+                    "endOffset": 13290
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2858,11 +2877,11 @@
             },
             {
                 "to": {
-                    "startLine": 174,
+                    "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 13226,
+                    "startOffset": 13295,
                     "endColumn": 122,
-                    "endOffset": 13344
+                    "endOffset": 13413
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2877,11 +2896,11 @@
             },
             {
                 "to": {
-                    "startLine": 175,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 13349,
+                    "startOffset": 13418,
                     "endColumn": 128,
-                    "endOffset": 13473
+                    "endOffset": 13542
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2896,11 +2915,11 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 13478,
+                    "startOffset": 13547,
                     "endColumn": 116,
-                    "endOffset": 13590
+                    "endOffset": 13659
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2915,12 +2934,12 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 13595,
-                    "endLine": 179,
+                    "startOffset": 13664,
+                    "endLine": 180,
                     "endColumn": 12,
-                    "endOffset": 13767
+                    "endOffset": 13836
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2936,11 +2955,11 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 13772,
+                    "startOffset": 13841,
                     "endColumn": 98,
-                    "endOffset": 13866
+                    "endOffset": 13935
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2955,12 +2974,12 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 13871,
-                    "endLine": 182,
+                    "startOffset": 13940,
+                    "endLine": 183,
                     "endColumn": 12,
-                    "endOffset": 14001
+                    "endOffset": 14070
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2976,12 +2995,12 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 14006,
-                    "endLine": 184,
+                    "startOffset": 14075,
+                    "endLine": 185,
                     "endColumn": 12,
-                    "endOffset": 14144
+                    "endOffset": 14213
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -2997,12 +3016,12 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 14149,
-                    "endLine": 186,
+                    "startOffset": 14218,
+                    "endLine": 187,
                     "endColumn": 12,
-                    "endOffset": 14279
+                    "endOffset": 14348
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3018,12 +3037,12 @@
             },
             {
                 "to": {
-                    "startLine": 187,
+                    "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 14284,
-                    "endLine": 188,
+                    "startOffset": 14353,
+                    "endLine": 189,
                     "endColumn": 12,
-                    "endOffset": 14398
+                    "endOffset": 14467
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3039,12 +3058,12 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 14403,
-                    "endLine": 192,
+                    "startOffset": 14472,
+                    "endLine": 193,
                     "endColumn": 12,
-                    "endOffset": 14599
+                    "endOffset": 14668
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3060,12 +3079,12 @@
             },
             {
                 "to": {
-                    "startLine": 193,
+                    "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 14604,
-                    "endLine": 194,
+                    "startOffset": 14673,
+                    "endLine": 195,
                     "endColumn": 12,
-                    "endOffset": 14718
+                    "endOffset": 14787
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3081,11 +3100,11 @@
             },
             {
                 "to": {
-                    "startLine": 195,
+                    "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 14723,
+                    "startOffset": 14792,
                     "endColumn": 92,
-                    "endOffset": 14811
+                    "endOffset": 14880
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3100,11 +3119,11 @@
             },
             {
                 "to": {
-                    "startLine": 196,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 14816,
+                    "startOffset": 14885,
                     "endColumn": 110,
-                    "endOffset": 14922
+                    "endOffset": 14991
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3119,11 +3138,11 @@
             },
             {
                 "to": {
-                    "startLine": 197,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 14927,
+                    "startOffset": 14996,
                     "endColumn": 55,
-                    "endOffset": 14978
+                    "endOffset": 15047
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3138,12 +3157,12 @@
             },
             {
                 "to": {
-                    "startLine": 198,
+                    "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 14983,
-                    "endLine": 199,
+                    "startOffset": 15052,
+                    "endLine": 200,
                     "endColumn": 12,
-                    "endOffset": 15085
+                    "endOffset": 15154
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3159,12 +3178,12 @@
             },
             {
                 "to": {
-                    "startLine": 200,
+                    "startLine": 201,
                     "startColumn": 4,
-                    "startOffset": 15090,
-                    "endLine": 203,
+                    "startOffset": 15159,
+                    "endLine": 204,
                     "endColumn": 12,
-                    "endOffset": 15280
+                    "endOffset": 15349
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3180,12 +3199,12 @@
             },
             {
                 "to": {
-                    "startLine": 204,
+                    "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 15285,
-                    "endLine": 205,
+                    "startOffset": 15354,
+                    "endLine": 206,
                     "endColumn": 12,
-                    "endOffset": 15391
+                    "endOffset": 15460
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3201,12 +3220,12 @@
             },
             {
                 "to": {
-                    "startLine": 206,
+                    "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 15396,
-                    "endLine": 207,
+                    "startOffset": 15465,
+                    "endLine": 208,
                     "endColumn": 12,
-                    "endOffset": 15524
+                    "endOffset": 15593
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3222,11 +3241,11 @@
             },
             {
                 "to": {
-                    "startLine": 208,
+                    "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 15529,
+                    "startOffset": 15598,
                     "endColumn": 94,
-                    "endOffset": 15619
+                    "endOffset": 15688
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3241,11 +3260,11 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 15624,
+                    "startOffset": 15693,
                     "endColumn": 90,
-                    "endOffset": 15710
+                    "endOffset": 15779
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3260,11 +3279,11 @@
             },
             {
                 "to": {
-                    "startLine": 210,
+                    "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 15715,
+                    "startOffset": 15784,
                     "endColumn": 90,
-                    "endOffset": 15801
+                    "endOffset": 15870
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3279,11 +3298,11 @@
             },
             {
                 "to": {
-                    "startLine": 211,
+                    "startLine": 212,
                     "startColumn": 4,
-                    "startOffset": 15806,
+                    "startOffset": 15875,
                     "endColumn": 116,
-                    "endOffset": 15918
+                    "endOffset": 15987
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3298,12 +3317,12 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 15923,
-                    "endLine": 213,
+                    "startOffset": 15992,
+                    "endLine": 214,
                     "endColumn": 12,
-                    "endOffset": 16057
+                    "endOffset": 16126
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3319,12 +3338,12 @@
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 16062,
-                    "endLine": 220,
+                    "startOffset": 16131,
+                    "endLine": 221,
                     "endColumn": 12,
-                    "endOffset": 16410
+                    "endOffset": 16479
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3340,12 +3359,12 @@
             },
             {
                 "to": {
-                    "startLine": 221,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 16415,
-                    "endLine": 227,
+                    "startOffset": 16484,
+                    "endLine": 228,
                     "endColumn": 12,
-                    "endOffset": 16775
+                    "endOffset": 16844
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3361,12 +3380,12 @@
             },
             {
                 "to": {
-                    "startLine": 228,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 16780,
-                    "endLine": 237,
+                    "startOffset": 16849,
+                    "endLine": 238,
                     "endColumn": 12,
-                    "endOffset": 17455
+                    "endOffset": 17524
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3382,11 +3401,11 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 17460,
+                    "startOffset": 17529,
                     "endColumn": 56,
-                    "endOffset": 17512
+                    "endOffset": 17581
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",
@@ -3401,11 +3420,11 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 17517,
+                    "startOffset": 17586,
                     "endColumn": 57,
-                    "endOffset": 17570
+                    "endOffset": 17639
                 },
                 "from": {
                     "file": "/home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v21/values-v21.xml",

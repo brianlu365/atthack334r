@@ -2,13 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nantmobile.id.Features">
+    android:background="#212121"
+    tools:context="com.nantmobile.id.Features"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
+    <at.markushi.ui.CircleButton
+        android:id="@+id/but"
+        android:layout_width="260dip"
+        android:layout_height="260dip"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/app_logo_no_background_200px"
+        app:cb_color="#00b548"
+        app:cb_pressedRingWidth="20dip" />
 </RelativeLayout>

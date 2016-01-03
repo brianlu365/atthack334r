@@ -11,6 +11,6 @@ public final class R {
 		public static final int app_name = 0x7f060017;
 	}
 	public static final class style {
-		public static final int AppTheme = 0x7f09002f;
+		public static final int AppTheme = 0x7f090030;
 	}
 }

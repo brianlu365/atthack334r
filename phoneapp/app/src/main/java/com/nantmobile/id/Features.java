@@ -27,6 +27,7 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
 
+import at.markushi.ui.CircleButton;
 import idsdk.api.Engine;
 
 public final class Features extends Fragment {
@@ -35,7 +36,7 @@ public final class Features extends Fragment {
         super.onCreate(savedInstanceState);
 
         View view = inflater.inflate(R.layout.activity_feature, container, false);
-        Button button = (Button) view.findViewById(R.id.button);
+        CircleButton button = (CircleButton) view.findViewById(R.id.but);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

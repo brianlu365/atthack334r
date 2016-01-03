@@ -42,6 +42,12 @@ ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.x
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.att.m2x.android:m2x-android:5.0.0] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.github.markushi:circlebutton:1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:15:9-41
 	android:allowBackup
@@ -75,6 +81,13 @@ INJECTED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifes
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
 MERGED from [com.att.m2x.android:m2x-android:5.0.0] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.github.markushi:circlebutton:1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:7:5-44
 	android:targetSdkVersion
 		INJECTED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml
