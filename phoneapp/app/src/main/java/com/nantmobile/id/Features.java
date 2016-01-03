@@ -21,8 +21,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import idsdk.api.Engine;
@@ -33,39 +35,20 @@ public final class Features extends Fragment {
         super.onCreate(savedInstanceState);
 
         View view = inflater.inflate(R.layout.activity_feature, container, false);
-        ListView featureListView = (ListView) view.findViewById(R.id.feature);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), R.layout.list_item, R.id.list_item_tv, new String[]{
-                getString(R.string.image_recognizer),
-                getString(R.string.barcode_recognizer),
-                getString(R.string.local_image_recognizer)
-        });
+        Button button = (Button) view.findViewById(R.id.button);
 
-        featureListView.setAdapter(adapter);
-        featureListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Fragment fragment = null;
-                switch (position) {
-                    case 0:
-                        fragment = new iDScreen().setMode(iDScreen.Mode.ImageQuery);
-                        break;
-                    case 1:
-                        fragment = new iDScreen().setMode(iDScreen.Mode.BarcodeScanner);
-                        break;
-                    case 2:
-                        fragment = new PackageBuilder();
-                        break;
-                }
+            public void onClick(View v) {
+                Fragment fragment = new iDScreen().setMode(iDScreen.Mode.BarcodeScanner);
 
-                if (fragment != null) {
-                    getActivity()
-                            .getSupportFragmentManager()
-                            .beginTransaction()
-                            .add(R.id.content_frame, fragment)
-                            .addToBackStack(fragment.getTag())
-                            .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                            .commit();
-                }
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .add(R.id.content_frame, fragment)
+                        .addToBackStack(fragment.getTag())
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                        .commit();
             }
         });
         return view;
