@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+RecycleItem.create!({barcode: "611269991000", points: 2, weight: 1.0, name: "red bull regular"})
+RecycleItem.create!({barcode: "611269142631", points: 2, weight: 1.0, name: "red bull zero - orange"})
