@@ -23,6 +23,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import com.att.m2x.android.main.M2XAPI;
+
 import idsdk.api.Camera;
 import idsdk.api.Engine;
 
@@ -42,6 +44,7 @@ public class Holder extends AppCompatActivity implements Engine.OnCreateListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        M2XAPI.initialize(getApplicationContext(), "7620741335388aa83bcdacab007e2391");
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
 

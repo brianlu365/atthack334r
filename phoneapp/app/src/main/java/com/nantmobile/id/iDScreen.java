@@ -32,6 +32,13 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.att.m2x.android.listeners.ResponseListener;
+import com.att.m2x.android.model.Device;
+import com.att.m2x.android.network.ApiV2Response;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -96,6 +103,42 @@ public class iDScreen extends Fragment {
                 return;
             }
 
+            JSONArray array = new JSONArray();
+            try {
+                array = response.toJson().getJSONArray("included");
+            } catch (Exception e) {
+                Log.e("", e.getMessage());
+            }
+
+            Log.i("test", array.toString());
+            JSONObject params = new JSONObject();
+            try {
+                String title = array.getJSONObject(0).toString();
+                title = title.replace("\"", "");
+                Log.i("Title:", title);
+                //params = new JSONObject("{\"values\": {\"barcode\":\"testing\"} }");
+                params = new JSONObject("{\"values\": {\"barcode\": \"" + title + "\"} }");
+                Log.i("params", params.toString());
+            //codes.put("barcode", barcode);
+            //params.put("values", codes);
+            } catch (Exception e){
+                Log.e("error", e.getMessage());
+            }
+            //JSONObject params = new JSONObject();
+
+            String deviceID = "6b12c70565588ea596d9ceccdec9c108";
+
+            Device.postDeviceUpdate(getActivity().getApplicationContext(), params, deviceID, new ResponseListener() {
+                @Override
+                public void onRequestCompleted(ApiV2Response apiV2Response, int i) {
+                    Log.i("PostUpdate Success!", apiV2Response.get_raw());
+                }
+
+                @Override
+                public void onRequestError(ApiV2Response apiV2Response, int i) {
+                    Log.e("PostUpdate Fail", apiV2Response.get_raw());
+                }
+            });
             onRecognized(results.iterator().next().getEntity());
         }
     };
