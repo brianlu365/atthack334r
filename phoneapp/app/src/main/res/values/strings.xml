@@ -6,7 +6,7 @@
     <string name="entity_id">Entity ID</string>
     <string name="no_match">No match found.</string>
     <string name="creative_not_available">Creative is not available.</string>
-    <string name="result">Result</string>
+    <string name="result">Scanned!</string>
     <string name="example">Example</string>
     <string name="visit_website_example">Visit the following website to view sample images and bar codes:</string>
     <string name="add_marker">Add marker</string>

@@ -288,7 +288,7 @@
     <string name="overlay_html_link">http://www.nantmobile.com</string>
     <string name="overlay_video">Video overlay</string>
     <string name="querying">Querying..</string>
-    <string name="result">Result</string>
+    <string name="result">Scanned!</string>
     <string name="retrieving_creative">Retrieving creative..</string>
     <string name="scan_another">New Scan</string>
     <string name="scanning">Scanning..</string>

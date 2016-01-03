@@ -69,6 +69,8 @@ public class iDScreen extends Fragment {
 
     private String android_id = "";
     static final String Grant = "a24dab0b6dfe2219";
+    static final String Tony = "101df17a510a8cb1";
+    private String user = "";
 
 
     private Button torch;
@@ -129,8 +131,11 @@ public class iDScreen extends Fragment {
                 Log.i("id:", android_id);
                 Log.i("grant:", Grant);
                 if(android_id.equals(Grant)) {
-                    Log.i("working", "w");
+                    user = "grant";
                     title += ",grant";
+                } else if(android_id.equals(Tony)) {
+                    user = "tony";
+                    title += ",tony";
                 }
                 String jsonobj = "{\\\"title\\\":\\\"" +  title + "\\\"}";
                 params = new JSONObject("{\"values\": {\"barcode\":\"" + jsonobj + "\"} }");
@@ -413,11 +418,21 @@ public class iDScreen extends Fragment {
         resultDialog.setTitle(getString(R.string.result));
         resultDialog.show();
 
-        Button fetchCreative = (Button) resultDialog.findViewById(R.id.fetch_creative);
-        fetchCreative.setOnClickListener(new View.OnClickListener() {
+        Button scan_again = (Button) resultDialog.findViewById(R.id.fetch_creative);
+        scan_again.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 resultDialog.dismiss();
+            }
+        });
+
+        Button open_stats = (Button) resultDialog.findViewById(R.id.open_stats);
+        open_stats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("http://www.e-cycler.xyz"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }
