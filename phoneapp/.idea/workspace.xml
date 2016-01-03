@@ -40,13 +40,49 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nantmobile/id/iDScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6651885">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="134" column="74" selection-start-line="134" selection-start-column="74" selection-end-line="134" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14256#14282#0" expanded="true" />
-                <element signature="e#14444#14600#0" expanded="true" />
-                <element signature="e#14599#14600#0" expanded="true" />
+                <element signature="e#2994#5571#0" expanded="true" />
+                <element signature="e#5570#5571#0" expanded="true" />
+                <element signature="e#5659#5924#0" expanded="true" />
+                <element signature="e#5923#5924#0" expanded="true" />
+                <element signature="e#6404#6715#0" expanded="true" />
+                <element signature="e#6714#6715#0" expanded="true" />
+                <element signature="e#6811#7281#0" expanded="true" />
+                <element signature="e#7280#7281#0" expanded="true" />
+                <element signature="e#7412#7737#0" expanded="true" />
+                <element signature="e#7736#7737#0" expanded="true" />
+                <element signature="e#7849#8449#0" expanded="true" />
+                <element signature="e#8042#8069#0" expanded="true" />
+                <element signature="e#8448#8449#0" expanded="true" />
+                <element signature="e#8551#8989#0" expanded="true" />
+                <element signature="e#8988#8989#0" expanded="true" />
+                <element signature="e#10020#10048#0" expanded="true" />
+                <element signature="e#10797#10839#0" expanded="true" />
+                <element signature="e#11236#11254#0" expanded="true" />
+                <element signature="e#12141#12166#0" expanded="true" />
+                <element signature="e#12224#12251#0" expanded="true" />
+                <element signature="e#12301#12317#0" expanded="true" />
+                <element signature="e#12377#12408#0" expanded="true" />
+                <element signature="e#12591#12608#0" expanded="true" />
+                <element signature="e#12972#12989#0" expanded="true" />
+                <element signature="e#14772#14798#0" expanded="true" />
+                <element signature="e#14960#15116#0" expanded="true" />
+                <element signature="e#15115#15116#0" expanded="true" />
+                <element signature="e#16193#16194#0" expanded="true" />
+                <element signature="e#16247#16248#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Device.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/jars/classes.jar!/com/att/m2x/android/model/Device.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.769231">
+              <caret line="158" column="29" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2115,7 +2151,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35230353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35230353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2154,19 +2190,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nantmobile/id/iDScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#14256#14282#0" expanded="true" />
-            <element signature="e#14444#14600#0" expanded="true" />
-            <element signature="e#14599#14600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nantmobile/id/Features.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2272,9 +2295,35 @@
           <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14256#14282#0" expanded="true" />
-            <element signature="e#14444#14600#0" expanded="true" />
-            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#2994#5571#0" expanded="true" />
+            <element signature="e#5570#5571#0" expanded="true" />
+            <element signature="e#5659#5924#0" expanded="true" />
+            <element signature="e#5923#5924#0" expanded="true" />
+            <element signature="e#6404#6715#0" expanded="true" />
+            <element signature="e#6714#6715#0" expanded="true" />
+            <element signature="e#6811#7281#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7412#7737#0" expanded="true" />
+            <element signature="e#7736#7737#0" expanded="true" />
+            <element signature="e#7849#8449#0" expanded="true" />
+            <element signature="e#8042#8069#0" expanded="true" />
+            <element signature="e#8448#8449#0" expanded="true" />
+            <element signature="e#8551#8989#0" expanded="true" />
+            <element signature="e#8988#8989#0" expanded="true" />
+            <element signature="e#10020#10048#0" expanded="true" />
+            <element signature="e#10797#10839#0" expanded="true" />
+            <element signature="e#11236#11254#0" expanded="true" />
+            <element signature="e#12141#12166#0" expanded="true" />
+            <element signature="e#12224#12251#0" expanded="true" />
+            <element signature="e#12301#12317#0" expanded="true" />
+            <element signature="e#12377#12408#0" expanded="true" />
+            <element signature="e#12591#12608#0" expanded="true" />
+            <element signature="e#12972#12989#0" expanded="true" />
+            <element signature="e#14772#14798#0" expanded="true" />
+            <element signature="e#14960#15116#0" expanded="true" />
+            <element signature="e#15115#15116#0" expanded="true" />
+            <element signature="e#16193#16194#0" expanded="true" />
+            <element signature="e#16247#16248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2384,9 +2433,35 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14256#14282#0" expanded="true" />
-            <element signature="e#14444#14600#0" expanded="true" />
-            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#2994#5571#0" expanded="true" />
+            <element signature="e#5570#5571#0" expanded="true" />
+            <element signature="e#5659#5924#0" expanded="true" />
+            <element signature="e#5923#5924#0" expanded="true" />
+            <element signature="e#6404#6715#0" expanded="true" />
+            <element signature="e#6714#6715#0" expanded="true" />
+            <element signature="e#6811#7281#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7412#7737#0" expanded="true" />
+            <element signature="e#7736#7737#0" expanded="true" />
+            <element signature="e#7849#8449#0" expanded="true" />
+            <element signature="e#8042#8069#0" expanded="true" />
+            <element signature="e#8448#8449#0" expanded="true" />
+            <element signature="e#8551#8989#0" expanded="true" />
+            <element signature="e#8988#8989#0" expanded="true" />
+            <element signature="e#10020#10048#0" expanded="true" />
+            <element signature="e#10797#10839#0" expanded="true" />
+            <element signature="e#11236#11254#0" expanded="true" />
+            <element signature="e#12141#12166#0" expanded="true" />
+            <element signature="e#12224#12251#0" expanded="true" />
+            <element signature="e#12301#12317#0" expanded="true" />
+            <element signature="e#12377#12408#0" expanded="true" />
+            <element signature="e#12591#12608#0" expanded="true" />
+            <element signature="e#12972#12989#0" expanded="true" />
+            <element signature="e#14772#14798#0" expanded="true" />
+            <element signature="e#14960#15116#0" expanded="true" />
+            <element signature="e#15115#15116#0" expanded="true" />
+            <element signature="e#16193#16194#0" expanded="true" />
+            <element signature="e#16247#16248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2476,7 +2551,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#0#527#0" expanded="true" />
+            <element signature="e#0#527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2614,7 +2689,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
           <folding>
-            <element signature="e#0#527#0" expanded="true" />
+            <element signature="e#0#527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2700,6 +2775,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/jars/classes.jar!/com/att/m2x/android/model/Device.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.769231">
+          <caret line="158" column="29" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nantmobile/id/Features.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2714,12 +2797,38 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nantmobile/id/iDScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6651885">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <caret line="134" column="74" selection-start-line="134" selection-start-column="74" selection-end-line="134" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14256#14282#0" expanded="true" />
-            <element signature="e#14444#14600#0" expanded="true" />
-            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#2994#5571#0" expanded="true" />
+            <element signature="e#5570#5571#0" expanded="true" />
+            <element signature="e#5659#5924#0" expanded="true" />
+            <element signature="e#5923#5924#0" expanded="true" />
+            <element signature="e#6404#6715#0" expanded="true" />
+            <element signature="e#6714#6715#0" expanded="true" />
+            <element signature="e#6811#7281#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7412#7737#0" expanded="true" />
+            <element signature="e#7736#7737#0" expanded="true" />
+            <element signature="e#7849#8449#0" expanded="true" />
+            <element signature="e#8042#8069#0" expanded="true" />
+            <element signature="e#8448#8449#0" expanded="true" />
+            <element signature="e#8551#8989#0" expanded="true" />
+            <element signature="e#8988#8989#0" expanded="true" />
+            <element signature="e#10020#10048#0" expanded="true" />
+            <element signature="e#10797#10839#0" expanded="true" />
+            <element signature="e#11236#11254#0" expanded="true" />
+            <element signature="e#12141#12166#0" expanded="true" />
+            <element signature="e#12224#12251#0" expanded="true" />
+            <element signature="e#12301#12317#0" expanded="true" />
+            <element signature="e#12377#12408#0" expanded="true" />
+            <element signature="e#12591#12608#0" expanded="true" />
+            <element signature="e#12972#12989#0" expanded="true" />
+            <element signature="e#14772#14798#0" expanded="true" />
+            <element signature="e#14960#15116#0" expanded="true" />
+            <element signature="e#15115#15116#0" expanded="true" />
+            <element signature="e#16193#16194#0" expanded="true" />
+            <element signature="e#16247#16248#0" expanded="true" />
           </folding>
         </state>
       </provider>

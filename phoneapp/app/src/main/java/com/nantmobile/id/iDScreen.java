@@ -60,13 +60,16 @@ import idsdk.api.recognition.RecognitionResponse;
 import idsdk.api.recognition.Recognizer;
 import idsdk.api.recognition.Source;
 import idsdk.internal.utils.Logger;
+import android.provider.Settings.Secure;
 
 public class iDScreen extends Fragment {
     private static final String EXAMPLE_LINK = "\"<a href=\\\"https://developer.theidplatform.com/sample-app\\\">https://developer.theidplatform.com/sample-app</a>\"";
 
     static final String PARAMETER_PATH = "path";
 
-    static final String Grant = "LGD8509b7484b4";
+    private String android_id = "";
+    static final String Grant = "a24dab0b6dfe2219";
+
 
     private Button torch;
     private Button facing;
@@ -93,7 +96,8 @@ public class iDScreen extends Fragment {
     private final Recognizer.OnRecognitionListener onRecognitionListener = new Recognizer.OnRecognitionListener() {
         @Override
         public void onRecognition(Recognizer recognizer, RecognitionResponse response) {
-            Log.i("Response", response.toJson().toString());
+            android_id = Secure.getString(getContext().getContentResolver(),
+                    Secure.ANDROID_ID);
             showProgress(false);
             setStatus();
 
@@ -112,14 +116,24 @@ public class iDScreen extends Fragment {
                 Log.e("", e.getMessage());
             }
 
-            Log.i("test", array.toString());
             JSONObject params = new JSONObject();
             try {
                 String title = array.getJSONObject(0).toString();
-                title = title.replace("\"", "\\\"");
-                Log.i("Title:", title);
-                //params = new JSONObject("{\"values\": {\"barcode\":\"testing\"} }");
-                params = new JSONObject("{\"values\": {\"barcode\": \"" + title + "\"} }");
+                title = title.replace("\"", "");
+                int index = title.indexOf("title:");
+                String tmp = title.substring(index);
+                int end = tmp.indexOf(",");
+                title = title.substring(index+6, index+end);
+                Log.i("TITLE", title);
+
+                Log.i("id:", android_id);
+                Log.i("grant:", Grant);
+                if(android_id.equals(Grant)) {
+                    Log.i("working", "w");
+                    title += ",grant";
+                }
+                String jsonobj = "{\\\"title\\\":\\\"" +  title + "\\\"}";
+                params = new JSONObject("{\"values\": {\"barcode\":\"" + jsonobj + "\"} }");
                 Log.i("params", params.toString());
             //codes.put("barcode", barcode);
             //params.put("values", codes);
