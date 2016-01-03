@@ -1,4 +1,4 @@
-# atthack334r
+# E-Cycler
 2016 AT&amp;T hackathon 
 
 web app has moved to https://github.com/brianlu365/atthack334r_webapp
