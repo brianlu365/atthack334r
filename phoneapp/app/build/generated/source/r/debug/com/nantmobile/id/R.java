@@ -2281,10 +2281,6 @@ containing a value of this type.
         public static final int end_padder=0x7f0c008d;
         public static final int enterAlways=0x7f0c0015;
         public static final int enterAlwaysCollapsed=0x7f0c0016;
-        public static final int entity_id=0x7f0c0098;
-        public static final int entity_id_caption=0x7f0c0097;
-        public static final int entity_name=0x7f0c009a;
-        public static final int entity_name_caption=0x7f0c0099;
         public static final int example=0x7f0c006e;
         public static final int example_hint=0x7f0c0077;
         public static final int example_link=0x7f0c0078;
@@ -2293,7 +2289,7 @@ containing a value of this type.
         public static final int expanded_menu=0x7f0c0051;
         public static final int facing=0x7f0c006c;
         public static final int feedback=0x7f0c006f;
-        public static final int fetch_creative=0x7f0c009b;
+        public static final int fetch_creative=0x7f0c0098;
         public static final int fill=0x7f0c002d;
         public static final int fill_horizontal=0x7f0c002e;
         public static final int fill_vertical=0x7f0c0021;
@@ -2323,6 +2319,7 @@ containing a value of this type.
         public static final int never=0x7f0c0035;
         public static final int none=0x7f0c0010;
         public static final int normal=0x7f0c000c;
+        public static final int open_stats=0x7f0c0097;
         public static final int overlay_path=0x7f0c0080;
         public static final int overlay_type=0x7f0c007f;
         public static final int overlay_uri=0x7f0c0093;
@@ -2493,20 +2490,21 @@ containing a value of this type.
         public static final int entity_id=0x7f060020;
         public static final int entity_name=0x7f060021;
         public static final int example=0x7f060022;
-        public static final int fetch_creative=0x7f060023;
-        public static final int image_recognizer=0x7f060024;
-        public static final int local_image_recognizer=0x7f060025;
-        public static final int no_match=0x7f060026;
+        public static final int image_recognizer=0x7f060023;
+        public static final int local_image_recognizer=0x7f060024;
+        public static final int no_match=0x7f060025;
+        public static final int open_stats=0x7f060026;
         public static final int overlay_html=0x7f060027;
         public static final int overlay_html_link=0x7f060028;
         public static final int overlay_video=0x7f060029;
         public static final int querying=0x7f06002a;
         public static final int result=0x7f06002b;
         public static final int retrieving_creative=0x7f06002c;
-        public static final int scanning=0x7f06002d;
-        public static final int start_recognition=0x7f06002e;
+        public static final int scan_another=0x7f06002d;
+        public static final int scanning=0x7f06002e;
+        public static final int start_recognition=0x7f06002f;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int visit_website_example=0x7f06002f;
+        public static final int visit_website_example=0x7f060030;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007f;

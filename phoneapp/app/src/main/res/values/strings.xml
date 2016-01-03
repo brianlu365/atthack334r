@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">iD</string>
+    <string name="app_name">Ecycler</string>
     <string name="entity_name">Entity name</string>
-    <string name="fetch_creative">Fetch creative</string>
+    <string name="scan_another">New Scan</string>
+    <string name="open_stats">Open Stats</string>
     <string name="entity_id">Entity ID</string>
     <string name="no_match">No match found.</string>
     <string name="creative_not_available">Creative is not available.</string>

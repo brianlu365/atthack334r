@@ -66,6 +66,8 @@ public class iDScreen extends Fragment {
 
     static final String PARAMETER_PATH = "path";
 
+    static final String Grant = "LGD8509b7484b4";
+
     private Button torch;
     private Button facing;
     private Button feedback;
@@ -114,7 +116,7 @@ public class iDScreen extends Fragment {
             JSONObject params = new JSONObject();
             try {
                 String title = array.getJSONObject(0).toString();
-                title = title.replace("\"", "");
+                title = title.replace("\"", "\\\"");
                 Log.i("Title:", title);
                 //params = new JSONObject("{\"values\": {\"barcode\":\"testing\"} }");
                 params = new JSONObject("{\"values\": {\"barcode\": \"" + title + "\"} }");
@@ -397,16 +399,10 @@ public class iDScreen extends Fragment {
         resultDialog.setTitle(getString(R.string.result));
         resultDialog.show();
 
-        TextView entityId = (TextView) resultDialog.findViewById(R.id.entity_id);
-        entityId.setText(entity.getId());
-        TextView entityTitle = (TextView) resultDialog.findViewById(R.id.entity_name);
-        entityTitle.setText(entity.getTitle());
-
         Button fetchCreative = (Button) resultDialog.findViewById(R.id.fetch_creative);
         fetchCreative.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                retrieveCreative(entity);
                 resultDialog.dismiss();
             }
         });
