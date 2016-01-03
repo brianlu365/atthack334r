@@ -32,9 +32,6 @@ public final class Features extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Log.i("test", "features");
-        //M2XAPI.initialize(getApplicationContext(), "7620741335388aa83bcdacab007e2391");
-
         View view = inflater.inflate(R.layout.activity_feature, container, false);
         ListView featureListView = (ListView) view.findViewById(R.id.feature);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), R.layout.list_item, R.id.list_item_tv, new String[]{
