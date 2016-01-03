@@ -14,8 +14,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme2"
-        android:fullBackupContent="false">
-        android:debuggable="true"
+        android:fullBackupContent="false"
+        android:versionName="demo"
+        android:versionCode="1"
+        >
 
         <activity
             android:name=".Holder"

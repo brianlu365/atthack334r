@@ -115,7 +115,7 @@ public class iDScreen extends Fragment {
             try {
                 array = response.toJson().getJSONArray("included");
             } catch (Exception e) {
-                Log.e("", e.getMessage());
+                Logger.e("", e.getMessage());
             }
 
             JSONObject params = new JSONObject();
@@ -126,10 +126,7 @@ public class iDScreen extends Fragment {
                 String tmp = title.substring(index);
                 int end = tmp.indexOf(",");
                 title = title.substring(index+6, index+end);
-                Log.i("TITLE", title);
 
-                Log.i("id:", android_id);
-                Log.i("grant:", Grant);
                 if(android_id.equals(Grant)) {
                     user = "grant";
                     title += ",grant";
@@ -139,11 +136,10 @@ public class iDScreen extends Fragment {
                 }
                 String jsonobj = "{\\\"title\\\":\\\"" +  title + "\\\"}";
                 params = new JSONObject("{\"values\": {\"barcode\":\"" + jsonobj + "\"} }");
-                Log.i("params", params.toString());
             //codes.put("barcode", barcode);
             //params.put("values", codes);
             } catch (Exception e){
-                Log.e("error", e.getMessage());
+                Logger.e("error", e.getMessage());
             }
             //JSONObject params = new JSONObject();
 
@@ -152,12 +148,12 @@ public class iDScreen extends Fragment {
             Device.postDeviceUpdate(getActivity().getApplicationContext(), params, deviceID, new ResponseListener() {
                 @Override
                 public void onRequestCompleted(ApiV2Response apiV2Response, int i) {
-                    Log.i("PostUpdate Success!", apiV2Response.get_raw());
+                    Logger.i("PostUpdate Success!", apiV2Response.get_raw());
                 }
 
                 @Override
                 public void onRequestError(ApiV2Response apiV2Response, int i) {
-                    Log.e("PostUpdate Fail", apiV2Response.get_raw());
+                    Logger.e("PostUpdate Fail", apiV2Response.get_raw());
                 }
             });
             onRecognized(results.iterator().next().getEntity());

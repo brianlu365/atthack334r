@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:2:1-33:12
 	xmlns:android
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -38,7 +38,7 @@ ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.x
 	android:name
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:10:22-66
 application
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:12:5-29:19
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:12:5-31:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.att.m2x.android:m2x-android:5.0.0] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.att.m2x.android/m2x-android/5.0.0/AndroidManifest.xml:11:5-12:19
@@ -56,26 +56,30 @@ MERGED from [com.github.markushi:circlebutton:1.1] /home/gdev/Github/atthack334r
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:14:9-43
 	android:theme
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:16:9-41
+	android:versionName
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:18:9-35
+	android:versionCode
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:19:9-32
 	android:fullBackupContent
 		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:17:9-42
 activity#com.nantmobile.id.Holder
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:screenOrientation
-		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:23:13-49
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:25:13-49
 	android:label
-		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:21:13-35
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:23:13-35
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from /home/gdev/Github/atthack334r/phoneapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/gdev/Github/atthack334r/phoneapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43

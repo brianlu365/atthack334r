@@ -17,8 +17,8 @@ android {
     buildToolsVersion "21.1.2"
 
     buildTypes {
-        debug {
-            debuggable true
+        Ecycler {
+            debuggable false
         }
     }
 

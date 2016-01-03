@@ -20,8 +20,9 @@
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme2" >
-        android:debuggable="true"
+        android:theme="@style/AppTheme2"
+        android:versionCode="1"
+        android:versionName="demo" >
         <activity
             android:name="com.nantmobile.id.Holder"
             android:label="@string/app_name"
